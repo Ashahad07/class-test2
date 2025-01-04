@@ -166,7 +166,7 @@ body {
     opacity: .5;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
@@ -189,19 +189,20 @@ button{
 .second-container {
     position: relative;
     margin-top: 6vw;
-    background:#6c6d6d21 url('') no-repeat local right;
-    
+    background: #6c6d6d21 url('') no-repeat local right;
+
 }
+
 .second-container:after {
-    content:'';
+    content: '';
     background: url('https://s3-alpha-sig.figma.com/img/3d32/4d7a/b6223afd2dcc00127d5306c78d86c633?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MwCYcBpf8EH~KC8Lg6dzjaSszEK9J9HF6aU-Os2OqdD0PmpDkEy~rHNfDuNQjJORBdSL6AIRvTJseiNQq~B-7W1ONZPbZ-ZE6YSqBcJrg4itFH5m13Z89iNsndJCyJpiBnoyGrRh00Pepiih1rfRsqX8JGzqcfVyBVhIr9qCplAtR4dPxNDFd2ZCyq1zOpBGQ4CkiH-mxI2CVMvkwFKhhIT1wJekg0~1dL9cawI9UOdmK6tWBKEpq7Jz3JoetVTzN0N6vHHZFoQyNSkhZG1sOU22OX38duLWYLedRn2BQzIGe0~b~PP1mH3Muc2uTjm0AHlWmFv4h9SFEBrCjg4mMg__') no-repeat center center;
     position: absolute;
-    top:0px;
+    top: 0px;
     left: 0px;
-    width:100%;
-    height:100%;
-    z-index:-1;
-    opacity: 0.1; 
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
 }
 
 .second-container .second-contain {
@@ -237,14 +238,14 @@ button{
     padding-left: .8vw;
 }
 
-.second-container .second-contain .second-imgs{
+.second-container .second-contain .second-imgs {
     height: 23vw;
     width: 34vw;
     position: relative;
     /* background-color: cadetblue; */
 }
 
-.second-container .second-contain .second-imgs .second-img1{
+.second-container .second-contain .second-imgs .second-img1 {
     margin-left: 5vw;
     height: 18vw;
     width: 25vw;
@@ -254,7 +255,7 @@ button{
     opacity: .8;
 }
 
-.second-container .second-contain .second-imgs .second-img2{
+.second-container .second-contain .second-imgs .second-img2 {
     height: 18vw;
     width: 25vw;
     background-image: url("https://s3-alpha-sig.figma.com/img/d55c/0bf5/7294aaa03eafc3aa16c3b946cb8e732d?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VJF5v5cjGG-Y~XcCdM0MbdOsO80IMwRxxXwIRENW9XEeJxZgHvPNguxW6txwFxC1ABFykpk4Ck1ueN7~pgNw-bruprbiCVS1mMTBaUV9SI7NAeUqgu~kSJ3HK2ppAiwuRbTpVSfFXuDQFKvTxuZ40Ldx4QTFe0X3UlP-6nw5GEsOCwyshT8-TIkPxLWfb0yX4pLErUOrZMvrAOEQ9wR7bpoXI~AHhVghMpMmXhD2BFQxcz488cNh2NFciUsRreyv6b30GCuQxPkzgToKCfh80ixRHLDnnwWm9~F~ChaT20t-T0-Shcx-mrbEtLjUUq8Xvj17Jic3r5W6wO4~25fx~Q__");
@@ -354,14 +355,14 @@ button{
 }
 
 .third-container .third-contain .third-heading h1 {
-    padding-left: 33vw;
+    padding-left: 30vw;
     font-size: 2vw;
 }
 
 .arrows {
     display: flex;
     gap: 12px;
-    
+
 }
 
 .arrows h3 {
@@ -455,22 +456,10 @@ button{
 /*  forth-container */
 
 .forth-container {
-    padding-bottom: 3vw;
-    position: relative;
+    padding-bottom: 10vw;
 }
 
-.forth-container:after {
-    content:'';
-    background: url('https://s3-alpha-sig.figma.com/img/3d32/4d7a/b6223afd2dcc00127d5306c78d86c633?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MwCYcBpf8EH~KC8Lg6dzjaSszEK9J9HF6aU-Os2OqdD0PmpDkEy~rHNfDuNQjJORBdSL6AIRvTJseiNQq~B-7W1ONZPbZ-ZE6YSqBcJrg4itFH5m13Z89iNsndJCyJpiBnoyGrRh00Pepiih1rfRsqX8JGzqcfVyBVhIr9qCplAtR4dPxNDFd2ZCyq1zOpBGQ4CkiH-mxI2CVMvkwFKhhIT1wJekg0~1dL9cawI9UOdmK6tWBKEpq7Jz3JoetVTzN0N6vHHZFoQyNSkhZG1sOU22OX38duLWYLedRn2BQzIGe0~b~PP1mH3Muc2uTjm0AHlWmFv4h9SFEBrCjg4mMg__') no-repeat center center;
-    position: absolute;
-    top:0px;
-    left: 0px;
-    width:100%;
-    height:100%;
-    z-index:-1;
-    opacity: 0.1; 
-}
-.forth-container .forth-contain {
+.forth-container .forth-container .forth-contain {
     padding: 0vw 6vw 10vw;
 }
 
@@ -481,13 +470,28 @@ button{
 
 .forth-container .forth-contain .forth-items {
     margin-top: 4vw;
+    position: relative;
+    padding: 0 6vw;
+}
+
+.forth-container .forth-contain .forth-items::before {
+    content: '';
+    background: url('https://s3-alpha-sig.figma.com/img/3d32/4d7a/b6223afd2dcc00127d5306c78d86c633?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MwCYcBpf8EH~KC8Lg6dzjaSszEK9J9HF6aU-Os2OqdD0PmpDkEy~rHNfDuNQjJORBdSL6AIRvTJseiNQq~B-7W1ONZPbZ-ZE6YSqBcJrg4itFH5m13Z89iNsndJCyJpiBnoyGrRh00Pepiih1rfRsqX8JGzqcfVyBVhIr9qCplAtR4dPxNDFd2ZCyq1zOpBGQ4CkiH-mxI2CVMvkwFKhhIT1wJekg0~1dL9cawI9UOdmK6tWBKEpq7Jz3JoetVTzN0N6vHHZFoQyNSkhZG1sOU22OX38duLWYLedRn2BQzIGe0~b~PP1mH3Muc2uTjm0AHlWmFv4h9SFEBrCjg4mMg__') no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
 }
 
 .forth-container .forth-contain .forth-items .item1 {
-    padding: 2vw 3.6vw;
+    padding: 2vw 3.3vw;
     border: 1px solid #3247C6;
     padding-bottom: 1.3vw;
     border-radius: 20px;
+    background-color: white;
 }
 
 .forth-container .forth-contain .forth-items .item1 h1 {
@@ -517,6 +521,8 @@ button{
     border-radius: 50px;
     color: #3247C6;
 
+    cursor: pointer;
+
 }
 
 .forth-container .forth-contain .forth-items .item2 .items {
@@ -538,6 +544,7 @@ button{
     border-radius: 50px;
     background-color: #3247C6;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -554,7 +561,7 @@ button{
     width: 42vw;
 }
 
-.footer .footer-contain>p{
+.footer .footer-contain>p {
     width: 44vw;
     color: white;
     font-weight: 200;
@@ -563,8 +570,8 @@ button{
     padding-top: 3vw;
 }
 
-.footer .footer-contain .addmission{
-   display: flex;
+.footer .footer-contain .addmission {
+    display: flex;
     align-items: center;
     border: 1px solid #FFFC31;
     padding: 2vw 3vw;
@@ -572,58 +579,58 @@ button{
     margin-bottom: 2vw;
 }
 
-.footer .footer-contain .addmission .us-add{
-   display: flex;
+.footer .footer-contain .addmission .us-add {
+    display: flex;
     align-items: center;
     border-right: 2px solid #FFFC31;
     padding: .5vw 1vw .5vw 0vw;
     gap: 10px;
 }
 
-.footer .footer-contain .addmission .uk-add{
-   display: flex;
+.footer .footer-contain .addmission .uk-add {
+    display: flex;
     align-items: center;
     padding: .5vw 0vw .5vw 1vw;
-    
+
 }
 
-.footer .footer-contain .addmission .us-add h3{
-  
+.footer .footer-contain .addmission .us-add h3 {
+
     color: white;
     font-weight: 200;
     font-size: 1.1vw;
 }
 
-.footer .footer-contain .addmission .uk-add h3{
+.footer .footer-contain .addmission .uk-add h3 {
     color: white;
     font-weight: 200;
     font-size: 1.1vw;
 }
 
-.footer .footer-contain .social{
+.footer .footer-contain .social {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.footer .footer-contain .footer-logo{
+.footer .footer-contain .footer-logo {
     color: white;
     padding-top: 4vw;
     font-size: .9vw;
 }
 
-.footer .footer-contain .social p{
+.footer .footer-contain .social p {
     font-size: 1vw;
     color: white;
     font-weight: 200;
 }
 
-.footer .footer-contain .social i{
+.footer .footer-contain .social i {
     font-size: 1.6vw;
     color: white;
 }
 
-.footer .footer-contain .social .ri-linkedin-box-fill{
+.footer .footer-contain .social .ri-linkedin-box-fill {
     padding-right: 30vw;
 }
 
@@ -634,29 +641,29 @@ button{
     width: 40vw;
 }
 
-.footer .about-resources .about-res{
+.footer .about-resources .about-res {
     display: flex;
     justify-content: space-between;
 }
 
-.footer .about-resources .about-res .resources{
+.footer .about-resources .about-res .resources {
     color: white;
     line-height: 3vw;
 }
 
-.footer .about-resources .about-res .resources h2{
+.footer .about-resources .about-res .resources h2 {
     color: white;
     font-size: 1.3vw;
 
 }
 
-.footer .about-resources .about-res .resources p{
+.footer .about-resources .about-res .resources p {
     color: #F4F4F4;
     font-size: .91vw;
     font-weight: 300;
 }
 
-.footer .about-resources .about-res .about-us{
+.footer .about-resources .about-res .about-us {
     color: white;
     line-height: 2.7vw;
     padding-right: 7vw;
@@ -664,19 +671,19 @@ button{
 
 }
 
-.footer .about-resources .about-res .about-us h2{
+.footer .about-resources .about-res .about-us h2 {
     color: white;
     font-size: 1.3vw;
 
 }
 
-.footer .about-resources .about-res .about-us p{
+.footer .about-resources .about-res .about-us p {
     color: #F4F4F4;
     font-size: .91vw;
     font-weight: 300;
 }
 
-.footer .input-box{
+.footer .input-box {
     width: 100%;
     background-color: white;
     padding: 1vw 2vw;
@@ -685,14 +692,14 @@ button{
     border-radius: 10px;
 }
 
-.footer .input-box input{
+.footer .input-box input {
     border: none;
     outline: none;
     font-size: 1vw;
 }
 
-.footer .input-box button{
-    padding: 1vw 3vw ;
+.footer .input-box button {
+    padding: 1vw 3vw;
     background-color: #E54F6D;
     border: 1px solid #E54F6D;
     color: white;
@@ -700,6 +707,6 @@ button{
     border-radius: 5px;
 }
 
-.footer .input-box input::placeholder{
+.footer .input-box input::placeholder {
     color: #969696;
 }
