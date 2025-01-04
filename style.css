@@ -47,6 +47,7 @@ body {
     font-weight: 300;
     padding-left: 2vw;
     display: flex;
+    cursor: pointer;
     align-items: center;
 }
 
